@@ -8,14 +8,14 @@ Create one task and complete this
 Expected Result: The task is created. When you click on the flag, the task is cancelled
 Status: Pass
 
-##Second test case: Create 5 items.
+## Second test case: Create 5 items.
 Text should be longer than 50 characters
 Complete just first and last tasks
 Expected Result: The 5 tasks are set in line with the other elements. 
 When you click on the flag of the first and the last element, they collapse.
 Status: Pass
 
-##Third test case: Verify the behaviour of the application when user put different data types in field
+## Third test case: Verify the behaviour of the application when user put different data types in field
 Text with huge amount characters
 Data includes special elements
 Expected Result: 
