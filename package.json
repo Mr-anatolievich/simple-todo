@@ -77,5 +77,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.2.0"
   }
 }
