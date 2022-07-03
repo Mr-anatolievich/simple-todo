@@ -32,7 +32,7 @@ describe('First test case:', () => {
 
 // Second test case: Create 5 items.
 
-// Text shoukd be longer than 50 characters
+// Text should be longer than 50 characters
 // Complete just first and last tasks
 
 // Expected Result: The 5 tasks are set in line with the other elements. 
@@ -67,7 +67,7 @@ describe('Second test case', () => {
 
 // Third test case: Verify the behaviour of the application when user put different data types in field
 
-// Text with huge amount characters
+// Text with a massive amount of characters 
 // Data includes special elements
 
 // Expected Result: 
