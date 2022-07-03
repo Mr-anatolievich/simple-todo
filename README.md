@@ -1,7 +1,7 @@
 If you want to run cypress test, you need to install all of new dependencies using 
 ### `npm install`
 
-I try to create different types of test cases. So, in this project I use:
+> I try to create different types of test cases. So, in this project I use:
 
 ## First test case: Create one task and complete this
 Expected Result: The task is created. When you click on the flag, the task is cancelled
@@ -23,18 +23,18 @@ Status: Faild
 Special characters are displayed in the field and are visible. 
 Status: Pass
 
-For faild test I need to create 
+> For faild test I need to create 
 ## bug report
-Title: Web App. Text with more than 90 characters does not transfer to another line
-ER: The user expects the task to fit on different lines on the page and not to overstep the screen frame
-AC: Text with more than 90 characters does not transfer to another line and is displayed outside the page window (frame)
+**Title:** Web App. Text with more than 90 characters does not transfer to another line
+**ER:** The user expects the task to fit on different lines on the page and not to overstep the screen frame
+**AC:** Text with more than 90 characters does not transfer to another line and is displayed outside the page window (frame)
 
 Also, I use add tools like cypress-mochawesome-reporter 
-This plugin help to crate video screenshots for all of tests. Results you can find in folder - simple-todo/cypress/videos
+This plugin help to crate video screenshots for all of tests. Results you can find in folder `simple-todo/cypress/videos`
 
-In cypress we have local reporter. We can use command 
+> In cypress we have local reporter. We can use command 
 ### `npx cypress run`
-This command create sceenshots for testing results and HTML file in folder simple-todo/cypress/report
+This command create sceenshots for testing results and HTML file in folder `simple-todo/cypress/report`
 
 # Getting Started with Create React App
 
