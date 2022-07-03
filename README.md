@@ -1,3 +1,41 @@
+If you want to run cypress test, you need to install all of new dependencies using 
+### `npm install`
+
+> I try to create different types of test cases. So, in this project I use:
+
+## First test case: Create one task and complete this
+Expected Result: The task is created. When you click on the flag, the task is cancelled
+Status: Pass
+
+## Second test case: Create 5 items.
+Text should be longer than 50 characters
+Complete just first and last tasks
+Expected Result: The 5 tasks are set in line with the other elements. 
+When you click on the flag of the first and the last element, they collapse.
+Status: Pass
+
+## Third test case: Verify the behaviour of the application when user put different data types in field
+Text with huge amount characters
+Data includes special elements
+Expected Result: 
+If a large amount of text is entered, the system will work correctly. 
+Status: Faild
+Special characters are displayed in the field and are visible. 
+Status: Pass
+
+> For faild test I need to create 
+## bug report
+**Title:** Web App. Text with more than 90 characters does not transfer to another line
+**ER:** The user expects the task to fit on different lines on the page and not to overstep the screen frame
+**AC:** Text with more than 90 characters does not transfer to another line and is displayed outside the page window (frame)
+
+Also, I use add tools like cypress-mochawesome-reporter 
+This plugin help to crate video screenshots for all of tests. Results you can find in folder `simple-todo/cypress/videos`
+
+> In cypress we have local reporter. We can use command 
+### `npx cypress run`
+This command create sceenshots for testing results and HTML file in folder `simple-todo/cypress/report`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
