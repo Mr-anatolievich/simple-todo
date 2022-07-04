@@ -1,4 +1,4 @@
-If you want to run cypress test, you need to install all of the new dependencies using 
+If you want to run **cypress test**, you need to install all of the new dependencies using 
 ### `npm install`
 
 > I try to create different types of test cases. So, in this project I use:
