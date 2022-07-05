@@ -80,15 +80,15 @@ describe('Third test case: Verify the behaviour of the application when user put
     cy.visit('http://localhost:3000/')
   })
 
+ // In this case, I use the JSON file located in cypress/fixtures/data.json
+ // When you import a big data file from json and don't copy-paste into the root file, it looks nicer.
+ 
   it('Enter a text more than 150 characters', () => {
       cy.fixture("data").then( details =>{
         cy.get('.App-inputs').type(details.text)
         cy.get('button').click()
       })
   })
- 
- // In this case, I use the JSON file located in cypress/fixtures/data.json
- // When you import a big data file from json and don't copy-paste into the root file, it looks nicer.
 
   it('Enter a text more than 150 characters', () => {
     cy.fixture("data").then( details =>{
